@@ -16,7 +16,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: darkcyan;
+  color: #86898f;
 }
 
 a:active {
@@ -95,7 +95,6 @@ a:active {
 
 .card h2 {
   margin-bottom: 10px;
-  color: #424949;
 }
 
 .list {
@@ -155,11 +154,17 @@ a:active {
 
 .btn:hover {
   opacity: 0.9;
+  transition: color 0.3s ease;
 }
 
 .a-books {
   color: #86898f;
   text-decoration: underline;
+  transition: color 0.5s ease;
+}
+
+.a-books:hover {
+  color: whitesmoke;
 }
 
 .message {
