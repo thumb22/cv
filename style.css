@@ -144,7 +144,8 @@ a:active {
 }
 
 .btn {
-  background: #111;
+  border-radius: 8px;
+  background: darkslategray;
   padding: 15px 20px;
   color: #fff;
   border: none;
