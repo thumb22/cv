@@ -171,3 +171,25 @@ a:active {
 .message {
   margin-bottom: 10px;
 }
+
+.lang__selection {
+  display: flex;
+  justify-content: end;
+  font-size: 17px;
+}
+
+.path-ru .lang__selection .lang-ru__version {
+  color: #51C978;
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+.path-en .lang__selection .lang-en__version {
+  color: #51C978;
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+.lang-en__version {
+  margin-right: 10px;
+}
