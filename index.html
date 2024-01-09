@@ -6,6 +6,8 @@
     <title>Bogdan Kreminskyi</title>
     <link href="style.css" rel="stylesheet"/>
     <link rel="icon" type="images/x-icon" href="img/favicon.png" />
+    <script type="text/javascript" defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container path-en">
@@ -19,6 +21,8 @@
           <a href="https://www.instagram.com/bogdan.official07/" target="blank">Instagram</a>
           |
           <a href="https://t.me/thumb2" target="blank">Telegram</a>
+          |
+          <a href="https://www.linkedin.com/in/bogdan-shevchuk-088526273/" target="blank">LinkedIn</a>
         </div>
       </div>
       <div class="card bg-grey">
@@ -32,7 +36,6 @@
       <div class="card bg-yellow">
         <h2>My hobbies</h2>
         <ol class="list">
-          <li>Programming</li>
           <li>Sport: cycling, badminton, basketball, volleyball, snorkeling</li>
           <li>Trips</li>
           <li>Some books</li>
@@ -43,7 +46,7 @@
         <ol class="list">
           <li>Web developer</li>
           <li>Discord Channels management</li>
-          <li>Founder of TwoX Studio</li>
+          <li>Founder of <a href="#" target="_blank">TwoX Studio</a></li>
           <li>Business and management</li>
         </ol>
       </div>
@@ -58,36 +61,35 @@
       <div class="card bg-green" >
         <h2>My latest projects</h2>
         <ol class="list">
-          <li>BeachDiscoveryWorld.com</li>
-          <li><a href="https://thumb22.github.io/BookTopia/" class="a-books">BookTopia.com</a></li>
+          <li>BeachDiscoveryWorld</li>
+          <li><a href="https://thumb22.github.io/BookTopia/">BookTopia.com</a></li>
           <li>Portal for Ohmatdyt Kiev</li>
-          <li>Energyprogram</li>
+          <li><a href="https://energyprogram-ua.com/">Energyprogram</a></li>
           <li>TwoX Studio</li>
         </ol>
       </div>
-      <!-- <div class="contact">
+      <div class="contact">
         <h2>Contact me</h2>
-        <form action="/">
+        <form action="/" id="form">
           <div class="row">
             <div class="form-group">
               <label for="name">Your name:</label>
-              <input type="text" id="name" placeholder="Enter your name...">
+              <input type="text" id="name" name="name" placeholder="Enter your name...">
             </div>
 
             <div class="form-group">
               <label for="email">Your email:</label>
-              <input type="email" id="email" placeholder="Enter email...">
+              <input type="email" id="email" name="email" placeholder="Enter email...">
             </div>
           </div>
 
           <div class="form-group">
             <label for="text">Your message:</label>
-            <input type="message" id="message" class="message">
+            <input type="message" id="message" name="message" class="message">
           </div>
           <input class="btn" type="submit" value="Сontact">
         </form>
-      </div> -->
+      </div>
     </div>
-    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

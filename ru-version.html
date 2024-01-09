@@ -6,6 +6,8 @@
     <title>Богдан Креминский</title>
     <link href="style.css" rel="stylesheet"/>
     <link rel="icon" type="images/x-icon" href="img/favicon.png" />
+    <script type="text/javascript" defer src="script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container path-ru">
@@ -21,23 +23,25 @@
           <a href="https://www.instagram.com/bogdan.official07/" target="_blank">Instagram</a>
           |
           <a href="https://t.me/thumb2" target="_blank">Telegram</a>
+          |
+          <a href="https://www.linkedin.com/in/bogdan-shevchuk-088526273/" target="blank">LinkedIn</a>
         </div>
       </div>
       <div class="card bg-grey">
         <h2>Мое образование</h2>
         <ol class="list">
-          <li>I have than 10 years of studies at school №134</li>
+          <li>11 класс в Лицее №134 г. Днепра</li>
           <li>Drupal 10 Site Building</li>
-          <li>I also read a lot of books on business and technology.</li>
+          <li>Читаю книги по бизнесу, менеджменту и т.д.</li>
         </ol>
       </div>
       <div class="card bg-yellow">
         <h2>Мои хобби</h2>
         <ol class="list">
-          <li>Programming</li>
           <li>Sport: cycling, badminton, basketball, volleyball, snorkeling</li>
-          <li>Trips</li>
-          <li>Some books</li>
+          <li>Спорт: велоспорт, бадминтон, баскетболл, волейболл, снорклинг</li>
+          <li>Путешествия</li>
+          <li>Книги</li>
         </ol>
       </div>
       <div class="card bg-lightblue">
@@ -52,44 +56,43 @@
       <div class="card bg-lightpink">
         <h2>Мои языковые навыки</h2>
         <ol class="list">
-          <li>English: Professional Working Proficiency</li>
-          <li>Russian: Native or Bilingual Proficiency</li>
-          <li>Ukrainian: Native or Bilingual Proficiency</li>
+          <li>Английский: Профессиональная деятельность</li>
+          <li>Русский: Родной</li>
+          <li>Украинский: Родной</li>
         </ol>
       </div>
       <div class="card bg-green" >
         <h2>Последние проекты</h2>
         <ol class="list">
           <li>BeachDiscoveryWorld.com</li>
-          <li><a href="https://thumb22.github.io/BookTopia/" class="a-books">BookTopia.com</a></li>
-          <li>Portal for Ohmatdyt Kiev</li>
-          <li>Energyprogram</li>
+          <li><a href="https://thumb22.github.io/BookTopia/" target="_blank">BookTopia.com</a></li>
+          <li>Портал для Охматдит</li>
+          <li><a href="https://energyprogram-ua.com/" target="_blank">Energyprogram</a></li>
           <li>TwoX Studio</li>
         </ol>
       </div>
-      <!-- <div class="contact">
-        <h2>Contact me</h2>
-        <form action="/">
+      <div class="contact">
+        <h2>Напишите мне</h2>
+        <form action="/" id="form">
           <div class="row">
             <div class="form-group">
               <label for="name">Your name:</label>
-              <input type="text" id="name" placeholder="Enter your name...">
+              <input type="text" id="name" name="name" placeholder="Enter your name...">
             </div>
 
             <div class="form-group">
               <label for="email">Your email:</label>
-              <input type="email" id="email" placeholder="Enter email...">
+              <input type="email" id="email" name="email" placeholder="Enter email...">
             </div>
           </div>
 
           <div class="form-group">
             <label for="text">Your message:</label>
-            <input type="message" id="message" class="message">
+            <input type="message" id="message" name="message" class="message">
           </div>
           <input class="btn" type="submit" value="Сontact">
         </form>
-      </div> -->
+      </div>
     </div>
-    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
