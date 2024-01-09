@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@font-face {
+  font-family: "Gilroy";
+  src:
+    local("Gilroy"),
+    url("font/Gilroy-Regular.ttf") format(ttf);
+}
+
 body {
   background-color: #fff;
   color: #0f141e;
   font-size: 16px;
   font-weight: normal;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Gilroy', sans-serif;
+}
+
+::selection {
+  background-color:rgb(70, 70, 70);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(209, 209, 209, 0.66);
+  border-radius: 8px;
 }
 
 a {
@@ -192,4 +217,12 @@ a:active {
 
 .lang-en__version {
   margin-right: 10px;
+}
+
+/* Media Query  */
+
+@media (max-width: 560px) {
+  body {
+    font-size: 12px;
+  }
 }
