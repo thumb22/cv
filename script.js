@@ -38,4 +38,12 @@ document.getElementById('form').addEventListener('submit', function(e) {
         console.log('Сообщение отправлено!')
     })
 })
-// This file can used for sending messages and Files in Landing Pages | By TwoX Studio | All rights reserved.
+// This script can used for sending messages and Files in Landing Pages | By TwoX Studio | All rights reserved.
+
+document.addEventListener("DOMContentLoaded", function () {
+    var allLinks = document.querySelectorAll(".info a, .card a");
+
+    allLinks.forEach(function (link) {
+        link.setAttribute("target", "_blank");
+    });
+});
