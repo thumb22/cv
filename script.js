@@ -25,7 +25,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
         this.name.value = ""
         this.email.value = ""
         this.message.value = ""
-        alert('Сообщение отправлено')
+        alert('Ваше сообщение отправлено!')
     })
 
     // Message sent Error

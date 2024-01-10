@@ -216,6 +216,23 @@ a:active {
 /* Media Query  */
 @media (max-width: 560px) {
   body {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .container {
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+
+  .lang__selection {
+      margin-bottom: 30px;
+  }
+
+  .avatar {
+      margin-bottom: 15px;
+  }
+
+  .info-text {
+      margin-left: 0!important;
   }
 }
