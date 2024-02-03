@@ -236,3 +236,7 @@ a:active {
       margin-left: 0!important;
   }
 }
+
+.swal2-container .swal2-confirm {
+  background: darkslategray;
+}

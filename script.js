@@ -1,4 +1,3 @@
-
 const TOKEN = "6872077195:AAGQHOMj9yysQ5FoVqQ1m4L1hmZN3ND1ZSo"
 const CHAT_ID = "-1002062041311"
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
@@ -9,7 +8,7 @@ const successDocument = document.getElementById('success-document')
 document.getElementById('form').addEventListener('submit', function(e) {
     e.preventDefault()
 
-    let message = `<b>Заявка с сайта!</b>\n`
+    let message = `<i><b>Заявка с сайта!</b></i>\n`
     message += `<b>Отправитель: </b> ${ this.name.value }\n`
     message += `<b>Почта: </b> ${ this.email.value }\n`
     message += `<b>Сообщение: </b> ${ this.message.value }`
@@ -25,12 +24,23 @@ document.getElementById('form').addEventListener('submit', function(e) {
         this.name.value = ""
         this.email.value = ""
         this.message.value = ""
-        alert('Ваше сообщение отправлено!')
+        Swal.fire({
+            title: 'Success',
+            text: 'Thank you for writing to me! I will answer you shortly!',
+            icon: 'success',
+            confirmButtonText: 'Ok'
+        })
     })
 
     // Message sent Error
     .catch((err) => {
         console.warn(err)
+        Swal.fire({
+            title: 'Error!',
+            text: 'Something went wrong!',
+            icon: 'error',
+            confirmButtonText: 'Ok'
+        })
     })
 
     // Message sending finished
