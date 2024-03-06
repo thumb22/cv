@@ -55,8 +55,12 @@ a:active {
   width: 200px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: all ease .3s;
 }
-
+.avatar.loaded {
+  opacity: 1;
+}
 .info {
   display: flex;
   margin-bottom: 25px;

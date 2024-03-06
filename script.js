@@ -57,3 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         link.setAttribute("target", "_blank");
     });
 });
+
+window.addEventListener("load", function (event) {
+    document.querySelector('.avatar').classList.add('loaded')
+});
