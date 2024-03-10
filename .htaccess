@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteRule ^ru$ ru-version.html [L]
-RewriteRule ^en$ index.html [L]
