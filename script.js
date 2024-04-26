@@ -1,5 +1,5 @@
-const TOKEN = "6872077195:AAGQHOMj9yysQ5FoVqQ1m4L1hmZN3ND1ZSo"
-const CHAT_ID = "-1002062041311"
+const TOKEN = ""
+const CHAT_ID = ""
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`
 const URI_API_DOCUMENT = `https://api.telegram.org/bot${TOKEN}/sendDocument`
 const success = document.getElementById('success')
@@ -8,7 +8,7 @@ const successDocument = document.getElementById('success-document')
 document.getElementById('form').addEventListener('submit', function(e) {
     e.preventDefault()
 
-    let message = `<i><b>Заявка с сайта!</b></i>\n`
+    let message = `<i><b>Сообщение!</b></i>\n`
     message += `<b>Отправитель: </b> ${ this.name.value }\n`
     message += `<b>Почта: </b> ${ this.email.value }\n`
     message += `<b>Сообщение: </b> ${ this.message.value }`
