@@ -18,11 +18,11 @@ body {
 }
 
 ::-moz-selection {
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(117 212 243);
 }
 
 ::selection {
-  background-color: rgb(70, 70, 70);
+  background-color: rgb(117 212 243);
 }
 
 ::-webkit-scrollbar {
