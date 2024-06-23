@@ -1,121 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Main meta tags  -->
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!-- SEO  -->
-    <meta name="description" content="I am 16 years old, I study at school, work as a Web developer. Founder of TwoX Studio">
-    <meta name="keywords" content="Bogdan, Kreminskyi, CV, resume, cooperation">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://thumb22.github.io/cv"/>
-    <!-- Freelancehunt -->
-    <meta name='freelancehunt' content='54945b96b33a703'>
-    <!-- Google Search Control  -->
-    <meta name="google-site-verification" content="C-c3CVBeAmMEhFN3VdsxX0DMmZ4rHJCOLtvZOccMoNk" />
-    <!-- Title  -->
-    <title>Bogdan Kreminskyi</title>
-    <!-- Styles  -->
-    <link href="style.css" rel="stylesheet"/>
-    <!-- Favicon  -->
-    <link rel="icon" type="images/x-icon" href="favicon.ico" />
-    <!-- Open Gragh-->
-    <meta name="og_title" property="og:title" content="Bogdan Kreminskyi"/>
-    <meta name="og_description" property="og:description" content="I am 16 years old, I study at school, work as a Web developer. Founder of TwoX Studio"/>
-    <meta name="og_image" property="og:image" content="images/avatar.webp"/>
-    <!-- Scripts  -->
-    <script type="text/javascript" defer src="script.js"></script>
-    <script type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <script type="text/javascript" defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  </head>
-  <body>
-    <div class="container path-en">
-      <div class="lang__selection"><a href="index.html" class="lang_switch lang-en__version">English</a><a href="ru.html" class="lang_switch lang-ru__version">Русский</a></div>
-      <div class="content">
-        <div class="info">
-          <img src="images/avatar.webp" class="avatar" alt="avatar"/>
-          <div class="info-text">
-            <h1>Bogdan Kreminskyi</h1>
-            <p>I am 16 years old, I study at school, work as a Web developer. Founder of <a href="https://twox.pro">TwoX Studio</a></p>
-            <h4>My social media</h4>
-            <a href="https://www.instagram.com/bogdan.official07/">Instagram</a>
-            |
-            <a href="https://t.me/thumb2">Telegram</a>
-            |
-            <a href="https://www.linkedin.com/in/bogdan-kreminskiy-088526273/">LinkedIn</a>
-            |
-            <a href="https://github.com/thumb22">GitHub</a>
-          </div>
-        </div>
-        <div class="card bg-grey">
-          <h2>My education</h2>
-          <ol class="list">
-            <li>11th grade at school</li>
-            <li>Drupal 10 Site Building</li>
-            <li>I also read a lot of books on business and technology.</li>
-          </ol>
-        </div>
-        <div class="card bg-yellow">
-          <h2>My hobbies</h2>
-          <ol class="list">
-            <li>Sport: cycling, badminton, basketball, volleyball, snorkeling</li>
-            <li>Trips</li>
-            <li>Some books</li>
-          </ol>
-        </div>
-        <div class="card bg-lightblue">
-          <h2>My areas of activity</h2>
-          <ol class="list">
-            <li>Web developer</li>
-            <li>Discord Channels management</li>
-            <li>Founder of <a href="https://twox.pro">TwoX Studio</a></li>
-            <li>Business and management</li>
-          </ol>
-        </div>
-        <div class="card bg-lightpink">
-          <h2>My language skills</h2>
-          <ol class="list">
-            <li>English: Professional Working Proficiency</li>
-            <li>Russian: Native or Bilingual Proficiency</li>
-            <li>Ukrainian: Native or Bilingual Proficiency</li>
-          </ol>
-        </div>
-        <div class="card bg-green" >
-          <h2>My latest projects</h2>
-          <ol class="list">
-            <li>BeachDiscoveryWorld</li>
-            <li><a href="https://thumb22.github.io/BookTopia/">BookTopia.com</a></li>
-            <li>Portal for Ohmatdyt Kiev</li>
-            <li><a href="https://energyprogram-ua.com/">Energyprogram</a></li>
-            <li>TwoX Studio</li>
-            <li><a href="https://prtscr.site/profile/816a1340-f401-11ec-8628-806e6f6e6963">PRTSCR</a></li>
-            <li><a href="https://welcome.houseofattractions.club">House of Attractions</a></li>
-            <li><a href="https://artemshilo.com">artemshilo.com</a></li>
-          </ol>
-        </div>
-        <div class="contact">
-          <h2>Contact me</h2>
-          <form action="/" id="form">
-            <div class="row">
-              <div class="form-group">
-                <label for="name">Your name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name..." required>
-              </div>
-  
-              <div class="form-group">
-                <label for="email">Your email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter email..." required>
-              </div>
+    <head>
+        <!-- Main meta tags  -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- SEO  -->
+        <meta
+            name="description"
+            content="I am 16 years old, I study at school, work as a Web developer. Founder of TwoX Studio"
+        />
+        <meta
+            name="keywords"
+            content="Bogdan, Kreminskyi, CV, resume, cooperation"
+        />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="canonical" href="https://thumb22.github.io/cv" />
+        <!-- Freelancehunt -->
+        <meta name="freelancehunt" content="54945b96b33a703" />
+        <!-- Google Search Control  -->
+        <meta
+            name="google-site-verification"
+            content="C-c3CVBeAmMEhFN3VdsxX0DMmZ4rHJCOLtvZOccMoNk"
+        />
+        <!-- Title  -->
+        <title>Bogdan Kreminskyi | CV</title>
+        <!-- Styles  -->
+        <link href="style.css" rel="stylesheet" />
+        <!-- Favicon  -->
+        <link rel="icon" type="images/x-icon" href="favicon.ico" />
+        <!-- Open Gragh-->
+        <meta name="og_title" property="og:title" content="Bogdan Kreminskyi" />
+        <meta
+            name="og_description"
+            property="og:description"
+            content="I am 16 years old, I study at school, work as a Web developer. Founder of TwoX Studio"
+        />
+        <meta
+            name="og_image"
+            property="og:image"
+            content="images/avatar.webp"
+        />
+        <!-- Scripts  -->
+        <script type="text/javascript" defer src="script.js"></script>
+        <script
+            type="text/javascript"
+            defer
+            src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            defer
+            src="https://cdn.jsdelivr.net/npm/sweetalert2@11"
+        ></script>
+    </head>
+    <body>
+        <div class="container path-en">
+            <div class="lang__selection">
+                <a href="index.html" class="lang_switch lang-en__version"
+                    >English</a
+                ><a href="ru.html" class="lang_switch lang-ru__version"
+                    >Русский</a
+                >
             </div>
-  
-            <div class="form-group">
-              <label for="message">Your message:</label>
-              <input type="message" id="message" name="message" class="message">
+            <div class="content">
+                <div class="info">
+                    <img src="images/avatar.webp" class="avatar" alt="avatar" />
+                    <div class="info-text">
+                        <h1>Bogdan Kreminskyi</h1>
+                        <p>
+                            I am 16 years old, I study at school, work as a Web
+                            developer. Founder of
+                            <a href="https://twox.pro">TwoX Studio</a>
+                        </p>
+                        <h4>My social media</h4>
+                        <a href="https://www.instagram.com/bogdan.official07/"
+                            >Instagram</a
+                        >
+                        |
+                        <a href="https://t.me/thumb2">Telegram</a>
+                        |
+                        <a
+                            href="https://www.linkedin.com/in/bogdan-kreminskiy-088526273/"
+                            >LinkedIn</a
+                        >
+                        |
+                        <a href="https://github.com/thumb22">GitHub</a>
+                    </div>
+                </div>
+                <div class="card bg-grey">
+                    <h2>My education</h2>
+                    <ol class="list">
+                        <li>11th grade at school</li>
+                        <li>Drupal 10 Site Building</li>
+                        <li>
+                            I also read a lot of books on business and
+                            technology.
+                        </li>
+                    </ol>
+                </div>
+                <div class="card bg-yellow">
+                    <h2>My hobbies</h2>
+                    <ol class="list">
+                        <li>
+                            Sport: cycling, badminton, basketball, volleyball,
+                            snorkeling
+                        </li>
+                        <li>Trips</li>
+                        <li>Some books</li>
+                    </ol>
+                </div>
+                <div class="card bg-lightblue">
+                    <h2>My areas of activity</h2>
+                    <ol class="list">
+                        <li>Web developer</li>
+                        <li>Discord Channels management</li>
+                        <li>
+                            Founder of
+                            <a href="https://twox.pro">TwoX Studio</a>
+                        </li>
+                        <li>Business and management</li>
+                    </ol>
+                </div>
+                <div class="card bg-lightpink">
+                    <h2>My language skills</h2>
+                    <ol class="list">
+                        <li>English: Professional Working Proficiency</li>
+                        <li>Russian: Native or Bilingual Proficiency</li>
+                        <li>Ukrainian: Native or Bilingual Proficiency</li>
+                    </ol>
+                </div>
+                <div class="card bg-green">
+                    <h2>My latest projects</h2>
+                    <ol class="list">
+                        <li>BeachDiscoveryWorld</li>
+                        <li>
+                            <a href="https://thumb22.github.io/BookTopia/"
+                                >BookTopia.com</a
+                            >
+                        </li>
+                        <li>Portal for Ohmatdyt Kiev</li>
+                        <li>
+                            <a href="https://energyprogram-ua.com/"
+                                >Energyprogram</a
+                            >
+                        </li>
+                        <li>TwoX Studio</li>
+                        <li>
+                            <a
+                                href="https://prtscr.site/profile/816a1340-f401-11ec-8628-806e6f6e6963"
+                                >PRTSCR</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://welcome.houseofattractions.club"
+                                >House of Attractions</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://artemshilo.com">artemshilo.com</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="contact">
+                    <h2>Contact me</h2>
+                    <form action="/" id="form">
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="name">Your name:</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Enter your name..."
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your email:</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Enter email..."
+                                    required
+                                />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message:</label>
+                            <input
+                                type="message"
+                                id="message"
+                                name="message"
+                                class="message"
+                            />
+                        </div>
+                        <input class="btn" type="submit" value="Сontact" />
+                    </form>
+                </div>
             </div>
-            <input class="btn" type="submit" value="Сontact">
-          </form>
         </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
