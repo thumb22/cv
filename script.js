@@ -1,7 +1,6 @@
 const TOKEN = "7181961801:AAF_chw2_DcSmrp1FvWE5McG1mJAeLbsd0Q";
 const CHAT_ID = "771451766";
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-const URI_API_DOCUMENT = `https://api.telegram.org/bot${TOKEN}/sendDocument`;
 const success = document.getElementById("success");
 const successDocument = document.getElementById("success-document");
 
